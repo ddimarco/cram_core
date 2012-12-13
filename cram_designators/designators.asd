@@ -27,6 +27,10 @@
                                                      "designator-id-mixin"
                                                      "equate-notification-mixin"
                                                      "designator-protocol"))
+             (:file "decision-designator" :depends-on ("package"
+                                                       "designator-id-mixin"
+                                                       "equate-notification-mixin"
+                                                       "designator-protocol"))
              (:file "action-designator" :depends-on ("package"
                                                      "designator-id-mixin"
                                                      "equate-notification-mixin"
@@ -39,6 +43,7 @@
                     :depends-on ("package" "location-designator"))
              (:file "facts" :depends-on ("package"
                                          "designator-protocol"
+                                         "decision-designator"
                                          "object-designator"
                                          "location-designator"
                                          "action-designator"))

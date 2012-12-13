@@ -58,6 +58,7 @@
            #:with-equate-callback
            #:assert-desig-binding
            #:retract-desig-binding
+           #:decision-designator #:decision-desig #:decision
            #:object-designator
            #:object-designator-data #:object-pose #:object-identifier
            #:register-object-desig-resolver
@@ -90,6 +91,7 @@
            ;; Properties & prolog related stuff
            #:loc-desig?
            #:obj-desig?
+           #:decision-desig?
            #:desig-solution
            #:desig-prop #:desig-class
            #:desig-timestamp #:desig-description
